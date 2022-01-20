@@ -1,43 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandingaPage</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LandingaPage</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/main.css">
 
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <a class="navbar-brand" href="#">/souzagabriele</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Quem sou<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-            </li>
-            <a class="nav-link" href="#">Fotos<span class="sr-only">(current)</span></a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="#home-section">/souzagabriele</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#quem-sou-section">Quem sou<span class="sr-only">(current)</span></a>
         </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Vídeo <span class="sr-only">(current)</span></a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-          </form>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato-section">Contato</a>
+        </li>
+        </li>
+        <a class="nav-link" href="#fotos-section">Fotos<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#video-section">Vídeo <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home-section" class="container page-section">
+      <h2>Bem vinde!</h2>
+      <p>
+        Orci dapibus ultrices in iaculis nunc. Diam vel quam elementum pulvinar etiam non quam. Sollicitudin ac orci
+        phasellus egestas tellus rutrum tellus.
+      </p>
+    </section>
+
+    <section id="quem-sou-section" class="container page-section">
+      <h2>Quem sou</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Integer malesuada nunc vel risus commodo viverra maecenas. Amet justo donec enim diam vulputate.
+        Scelerisque purus semper eget duis at tellus at urna condimentum. Etiam sit amet nisl purus in mollis nunc sed
+        id. Lectus proin nibh nisl condimentum id venenatis a. Sed id semper risus in. Mauris a diam maecenas sed enim
+        ut. Sagittis vitae et leo duis ut diam quam nulla. Viverra aliquet eget sit amet tellus cras adipiscing enim.
+        Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Sit amet mauris commodo quis imperdiet
+        massa tincidunt nunc pulvinar. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Leo vel orci porta
+        non pulvinar neque.
+      </p>
+    </section>
+    <hr>
+    <section id="fotos-section" class="container page-section">
+      <h2>Fotos</h2>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1642433430831-ed4fe36f4625?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1642607806998-6123a2d3065f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1642609199263-23dcbef81e16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1642598781423-be722bbd4f99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+              class="d-block w-100" alt="...">
+          </div>
         </div>
-      </nav>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <hr>
+    <section id="video-section" class="container page-section">
+      <h2>Vídeo</h2>
+      <div class="card" style="width: 18rem;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W2Wnvvj33Wo" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen class="card-img-top"></iframe>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="contato-section" class="container page-section">
+      <h2>Contato</h2>
+      <form>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome:</label>
+          <input id="nome" class="form-control" type="text">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input id="email" class="form-control" type="email">
+        </div>
+        <div class="mb-3">
+          <label for="telefone" class="form-label">Telefone:</label>
+          <input id="telefone" class="form-control" class="form-label" type="number">
+        </div>
+        <button id="botaoEnviar" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container">
+
+    <div class="container">
+      <a href="https://www.facebook.com/" target="_blank">
+        <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+      </a>
+
+      <a href="https://www.linkedin.com/" target="_blank">
+        <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+      </a>
+
+      <a href="https://www.instagram.com/" target="_blank">
+        <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
+      </a>
+
+    </div>
+
+    <p class="center">
+      Todos os direitos reservados: Gabriele Souza &copy
+    </p>
+  </footer>
+
+  <script type="text/javascript" src="script/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
